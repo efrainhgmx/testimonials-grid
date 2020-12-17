@@ -71,6 +71,19 @@ h2 span {
     color: var(--ligth-gray);
 }
 
+h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0 35px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 35px;
+}
+
 .violet {
     background-color: var(--moderate-violete);
     color: var(--grayish-blue);
