@@ -33,16 +33,47 @@ body {
     height: auto;
     padding: 5px;
     display: grid;
-    grid-template: 750px 250px 250px 550px 550px / 85%;
+    grid-template: 750px 250px 250px 550px 550px / 90%;
     gap: 15px;
     justify-content: center;
 }
 
-
 article {
-    border: 1px solid var(--grayish-blue);
-    background-color: aquamarine;
+    border-radius: 25px;
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.profile-container {
     width: 100%;
+    display: flex;
+    margin: 10px 0 25px 15px;
+}
+
+figure {
+    margin-right: 15px;
+    width: 35px;
+}
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h2 span {
+    font-size: .95rem;
+    font-weight: 500;
+    color: var(--ligth-gray);
+}
+
+.violet {
+    background-color: var(--moderate-violete);
+    color: var(--grayish-blue);
 }
 
 .attribution { font-size: 11px; text-align: center; }
