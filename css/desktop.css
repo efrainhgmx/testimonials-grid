@@ -1,0 +1,49 @@
+.grid-container {
+    height: 100vh;
+    padding: 50px;
+    grid-template: 1fr 1fr / repeat(4, 1fr);
+    grid-template-areas: "violet-grid violet-grid light-gray--grid white-blue--grid"
+                         "white-grid black-grid black-grid white-blue--grid";
+}
+
+.violet-grid {
+    grid-area: violet-grid;
+}
+
+.light-gray--grid {
+    grid-area: light-gray--grid;
+}
+
+.white-grid {
+    grid-area: white-grid;
+}
+
+.black-grid {
+    grid-area: black-grid;
+}
+
+.white-blue--grid {
+    grid-area: white-blue--grid;
+}
+
+article {
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: .8rem;
+}
+
+@media screen and (min-width: 930px) {
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
